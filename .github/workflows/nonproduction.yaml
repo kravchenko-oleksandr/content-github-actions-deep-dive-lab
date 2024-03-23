@@ -1,6 +1,7 @@
 name: Deploy feature branches to nonproduction bucket
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - feature*
