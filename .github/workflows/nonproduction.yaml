@@ -9,6 +9,7 @@ on:
 jobs:
 
   build:
+    environment: dev
     runs-on: ubuntu-latest
     env:
       BUCKET_NAME: cfst-3457-32718975a6df3813e7edcd4e3-nonprodbucket-1i9ko3myecsyd
